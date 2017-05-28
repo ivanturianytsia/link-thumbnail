@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=3000 MONGO_URL=mongodb://ivan:ivan@ds155651.mlab.com:55651/link-preview node index.js"
   },
   "author": "Ivan Turianytsia",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
+    "mongoose": "^4.10.3",
     "request": "^2.81.0",
     "request-promise": "^4.2.0"
   }
